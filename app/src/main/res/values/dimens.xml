@@ -7,4 +7,9 @@
     <dimen name="width_200">200dp</dimen>
     <dimen name="text_25">25sp</dimen>
     <dimen name="text_20">20sp</dimen>
+    <dimen name="layout_height">@dimen/wrap_content</dimen>
+
+
+    <item name="match_parent" format="integer" type="dimen">-1</item>
+    <item name="wrap_content" format="integer" type="dimen">-2</item>
 </resources>
