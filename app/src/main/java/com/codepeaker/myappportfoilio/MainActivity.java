@@ -32,22 +32,22 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
         switch(v.getId()){
             case R.id.popular_movies :
                 Toast.makeText(MainActivity.this, R.string.popular_movies_string, Toast.LENGTH_LONG).show();
-
+                break;
             case R.id.stock_hawk :
                 Toast.makeText(MainActivity.this, R.string.stock_hawk_string, Toast.LENGTH_LONG).show();
-
+                break;
             case R.id.bulid_it_bigger :
                 Toast.makeText(MainActivity.this, R.string.build_itbigger, Toast.LENGTH_LONG).show();
-
+                break;
             case R.id.make_your_app_material :
                 Toast.makeText(MainActivity.this, R.string.make_your_app, Toast.LENGTH_LONG).show();
-
+                break;
             case R.id.go_ubiquitous :
                 Toast.makeText(MainActivity.this, R.string.ubiquitous_String, Toast.LENGTH_LONG).show();
-
+                break;
             case R.id.capstone :
                 Toast.makeText(MainActivity.this, R.string.capstone_string, Toast.LENGTH_LONG).show();
-
+                break;
 
         }
     }
